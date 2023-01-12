@@ -23,7 +23,7 @@ function getInput() {
     //math
     let TMP = loan *  (rate / 1200) / (1 - (1 + rate/1200)**(-term));
     //console.logs throughout cause its easier for me to see whats happening the debugger hates me :(
-    //console.log(TMP);
+    console.log(TMP);
     //Calling my functions but maybe I don't need this 
     calculateMortgage();
     displayNumbers();
